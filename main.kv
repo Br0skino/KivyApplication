@@ -1,0 +1,38 @@
+<MainWindow>:
+    BoxLayout:
+        #size_hint_y:0.1
+        id:main_box
+        orientation:"vertical"
+        BoxLayout:
+            id:title
+            Label:
+                text:"Form"
+
+        BoxLayout:
+            id:fields
+            orientation:"vertical"
+            BoxLayout:
+                size_hint_y:0.2
+                Label:
+                    text:"Hey"
+                #size_hint_y:0.2
+                Label:
+                    size_hint_y:0.5
+                TextInput:
+                    size_hint_y:0.1
+                    #text:"Hey"
+                #Label:
+                    #size_hint_y:0.5
+        BoxLayout:
+            #orientation:"vertical"
+            size_hint_y:2.0
+
+        BoxLayout:
+            id:button
+            #Label:
+            size_hint_y:0.1
+            Label:
+
+            Button:
+                text:"Hey"
+            Label:
